@@ -1,0 +1,26 @@
+{
+  "apiKey": "hch-v3-ixqxdr0fg55o9x2to7oycd0zpdg307txtmn7mdetkgpgdv5gy8dppuf7rsauhmmu",
+  "workspace": "hermes",
+  "peerName": "user",
+  "hosts": {
+    "hermes": {
+      "enabled": true,
+      "aiPeer": "hermes",
+      "workspace": "hermes",
+      "peerName": "user",
+      "recallMode": "hybrid",
+      "observationMode": "directional",
+      "observation": {
+        "user": { "observeMe": true, "observeOthers": true },
+        "ai":   { "observeMe": true, "observeOthers": true }
+      },
+      "writeFrequency": "async",
+      "sessionStrategy": "per-directory",
+      "dialecticReasoningLevel": "low",
+      "dialecticDynamic": true,
+      "dialecticMaxChars": 600,
+      "saveMessages": true
+    }
+  },
+  "sessions": {}
+}
